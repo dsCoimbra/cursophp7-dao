@@ -44,5 +44,13 @@ $usuario->update("professor", "!@#$%¨&*");
 
 echo $usuario;
 
+echo "<br>-------------------------------------------------";
+echo "<br>";
+
+$usuario->loadById(12);
+
+$usuario->delete();
+
+echo $usuario;
 
  ?>
